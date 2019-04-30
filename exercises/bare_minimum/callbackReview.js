@@ -27,7 +27,6 @@ var pluckFirstLineFromFile = function (filePath, callback) {
 var getStatusCode = function (url, callback) {
   // TODO
 
-
   request(url, (err, res, body) => {
     if (err) {
       callback(err);
